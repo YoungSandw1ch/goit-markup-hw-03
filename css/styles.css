@@ -263,14 +263,19 @@ h6 {
   margin-top: 30px;
 }
 .portfolio__img {
+  display: block;
 }
 .portfolio__box {
+  padding: 20px 24px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
 }
 .portfolio__title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   font-weight: 700;
+  margin-bottom: 4px;
 }
 .portfolio__text {
   font-size: 16px;
