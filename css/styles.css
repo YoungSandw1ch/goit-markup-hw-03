@@ -17,8 +17,23 @@ body {
   font-size: 14px;
   line-height: 1.2;
 }
-.list {
-  list-style: none;
+ul li {
+list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;font-weight: 400;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* этот заголовок нужно сделать невидимым он для семантики */
+.hide__title{
 }
 .container{
   width: 1200px;
@@ -47,12 +62,20 @@ body {
 .header {
   letter-spacing: 0.02em;
   font-weight: 500;
+  border-bottom: 1px solid #ececec;
+}
+.header__box {
+  display: flex;
 }
 .menu {
+  display: flex;
 }
 .menu__logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navigation {
+  display: flex;
 }
 .navigation__item{
 }
@@ -61,6 +84,7 @@ body {
   color: var(--firstFontColor);
 }
 .contacts {
+  display: flex;
 }
 .contacts__item{
 }
@@ -74,9 +98,6 @@ body {
 
 /* -------------------------------------------studio-main--------------------------------*/
 
-.head {
-background-color: var(--mainBG);
-}
 .head__title {
   font-size: 44px;
   font-weight: 900;
@@ -95,11 +116,6 @@ background-color: var(--mainBG);
   background-color: var(--brandHover);
   cursor: pointer;
 }
-.blocks {
-}
-/* этот заголовок нужно сделать невидимым он для семантики */
-.blocks__title{}
-
 .rows {
 }
 .rows__item {
@@ -114,8 +130,7 @@ background-color: var(--mainBG);
   letter-spacing: 0.03em;
   color: var(--secondFontColor);
 }
-.work {
-}
+
 .work__title {
 }
 .title {
@@ -129,8 +144,6 @@ background-color: var(--mainBG);
 .jobs__item {
 }
 .jobs__img {
-}
-.cards {
 }
 .cards__title {
 }
@@ -153,13 +166,9 @@ background-color: var(--mainBG);
 
 /* -----------------------------------------portfolio-main-------------------------------*/
 
-.section {
-  font-size: 16px;
-}
-/* этот заголовок нужно сделать невидимым он для семантики */
-.section__title{
-}
+
 .filter {
+  font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   font-weight: 500;
@@ -190,6 +199,7 @@ background-color: var(--mainBG);
   font-weight: 700;
 }
 .portfolio__text {
+  font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondFontColor);
