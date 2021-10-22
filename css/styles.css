@@ -1,0 +1,222 @@
+
+/* знаю что нельзя пустые наборы правил оставлять. Но они же для след. ДЗ нужны  */
+
+/*------------------------------------------------root------------------------------------*/
+:root {
+  --brandColor: #2196F3;
+  --brandHover: #188CE8;
+  --firstFontColor: #212121;
+  --secondFontColor: #757575;
+  --mainBG: #2F303A;
+  --sectionBG: #F5F4FA;
+}
+/* --------------------------------------------global------------------------------------*/
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--firstFontColor);
+  font-size: 14px;
+  line-height: 1.2;
+}
+ul {
+  list-style: none;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--brandColor);
+  
+}
+.logo > span {
+  color:var(--firstFontColor);
+}
+.link:focus,
+.link:hover {
+  color: var(--brandColor);
+}
+/*---------------------------------------------header------------------------------------*/
+
+.header {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.menu {
+}
+.menu__logo {
+}
+.navigation {
+}
+.navigation__item{
+}
+.navigation__link{
+  text-decoration: none;
+  color: var(--firstFontColor);
+}
+.contacts {
+}
+.contacts__item{
+}
+.contacts__link {
+  color: var(--secondFontColor);
+}
+.current {
+  color:var(--brandColor);
+}
+
+
+/* -------------------------------------------studio-main--------------------------------*/
+
+.head {
+background-color: var(--mainBG);
+}
+.head__title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.head__btn {
+  background-color: var(--brandColor);
+  color: #fff;
+}
+.head__btn:focus,
+.head__btn:hover {
+  background-color: var(--brandHover);
+  cursor: pointer;
+}
+.blocks {
+}
+/* этот заголовок нужно сделать невидимым он для семантики */
+.blocks__title{}
+
+.rows {
+}
+.rows__item {
+}
+.rows__title {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.rows__text {
+  letter-spacing: 0.03em;
+  color: var(--secondFontColor);
+}
+.work {
+}
+.work__title {
+}
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.jobs {
+}
+.jobs__item {
+}
+.jobs__img {
+}
+.cards {
+}
+.cards__title {
+}
+.team {
+}
+.team__item {
+}
+.team__img {
+}
+.team__box {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+.team__title {
+  font-weight: 500;
+}
+.team__text {
+  color: var(--secondFontColor);
+}
+
+/* -----------------------------------------portfolio-main-------------------------------*/
+
+.section {
+  font-size: 16px;
+}
+/* этот заголовок нужно сделать невидимым он для семантики */
+.section__title{
+}
+.filter {
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+.filter__item {
+}
+.filter__btn {
+  background-color: #F5F4FA;
+}
+.filter__btn:focus,
+.filter__btn:hover {
+  color: #fff;
+  background-color: var(--brandColor);
+  cursor: pointer;
+}
+.portfolio {
+}
+.portfolio__item {
+}
+.portfolio__img {
+}
+.portfolio__box {
+}
+.portfolio__title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+.portfolio__text {
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondFontColor);
+}
+
+/*---------------------------------------------footer------------------------------------*/
+
+.footer {
+  background-color: var(--mainBG);
+}
+.footer__logo {
+}
+.footer__logo > span {
+  color: #fff;
+}
+.footer__address {
+}
+.footer__list {
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.footer__map {
+  text-decoration: none;
+  color: #fff;
+}
+.footer__link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
