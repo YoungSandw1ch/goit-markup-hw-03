@@ -85,8 +85,6 @@ body {
 }
 .navigation {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
   margin-right: 331px;
 }
 .navigation__item{
@@ -95,13 +93,14 @@ body {
   margin-right: 50px;
 }
 .navigation__link{
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-decoration: none;
   color: var(--firstFontColor);
 }
 .contacts {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .contacts__item{
 }
@@ -109,6 +108,9 @@ body {
   margin-right: 50px;
 }
 .contacts__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--secondFontColor);
 }
 .current {
