@@ -113,6 +113,7 @@ h6 {
 }
 
 /* -------------------------------------------studio-main--------------------------------*/
+/*----------------------------section-1---------------------*/
 .hero-bg {
   background-color: var(--mainBg);
 }
@@ -149,6 +150,7 @@ h6 {
   background-color: var(--brandHover);
   cursor: pointer;
 }
+/*----------------------------section-2---------------------*/
 .rows {
   display: flex;
 }
@@ -168,7 +170,7 @@ h6 {
   letter-spacing: 0.03em;
   color: var(--secondFontColor);
 }
-
+/*----------------------------section-3---------------------*/
 .work__title {
   margin-bottom: 50px;
 }
@@ -192,6 +194,7 @@ h6 {
 .second-bg {
   background-color: var(--sectionBg);
 }
+/*----------------------------section-4---------------------*/
 .cards__title {
   margin-bottom: 50px;
 }
