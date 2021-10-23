@@ -128,7 +128,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.head__title {
+.hero__title {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -140,7 +140,7 @@ body {
   margin-bottom: 30px;
   color: var(--lightFontColor);
 }
-.head__btn {
+.hero__btn {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
@@ -180,14 +180,12 @@ body {
 .section-null-pt{
   padding-top: 0;
 }
-.work__title {
-  margin-bottom: 50px;
-}
 .title {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
 }
 .jobs {
   display: flex;
@@ -204,9 +202,6 @@ body {
   background-color: var(--sectionBg);
 }
 /*----------------------------section-4---------------------*/
-.cards__title {
-  margin-bottom: 50px;
-}
 .team {
   display: flex;
 }
