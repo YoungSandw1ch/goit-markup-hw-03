@@ -151,8 +151,8 @@ body {
   background-color: var(--brandColor);
   color: var(--lightFontColor);
 }
-.head__btn:focus,
-.head__btn:hover {
+.hero__btn:focus,
+.hero__btn:hover {
   background-color: var(--brandHover);
   cursor: pointer;
 }
@@ -270,6 +270,8 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+/* or with :not(:nth-child(3n))
+          margin-right: 30px;*/
 .portfolio__item:nth-child(3n) {
   margin-right: 0;
 }
