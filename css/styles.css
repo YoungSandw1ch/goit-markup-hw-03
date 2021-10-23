@@ -126,8 +126,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding-top: 106px;
-  padding-bottom: 106px; */
 }
 .head__title {
   font-size: 44px;
