@@ -84,7 +84,6 @@ body {
 }
 .navigation {
   display: flex;
-  margin-right: 331px;
 }
 .navigation__item{
 }
@@ -100,10 +99,11 @@ body {
 }
 .contacts {
   display: flex;
+  margin-left: auto;
 }
 .contacts__item{
 }
-.contacts__item:first-child {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 .contacts__link {
