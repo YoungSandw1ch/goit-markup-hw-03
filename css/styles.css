@@ -29,6 +29,11 @@ ul {
   margin: 0;
   font-size: inherit;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 body {
   font-family: Roboto, sans-serif;
   color: var(--firstFontColor);
@@ -41,6 +46,11 @@ body {
 }
 /* этот заголовок нужно сделать невидимым он для семантики */
 .hide__title{
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 .container{
   width: 1200px;
@@ -58,6 +68,9 @@ body {
 }
 .logo > span {
   color:var(--firstFontColor);
+}
+.link {
+  text-decoration: none;
 }
 .link:focus,
 .link:hover {
@@ -169,13 +182,15 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .rows__text {
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondFontColor);
 }
 /*----------------------------section-3---------------------*/
-.section-null-pt{
+.position {
   padding-top: 0;
 }
 .title {
@@ -196,7 +211,7 @@ body {
 }
 .jobs__img {
 }
-.second-bg {
+.background {
   background-color: var(--sectionBg);
 }
 /*----------------------------section-4---------------------*/
@@ -319,7 +334,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer__item {
+.footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer__map {
