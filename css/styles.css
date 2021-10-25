@@ -200,16 +200,16 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
-.jobs {
+.works {
   display: flex;
 }
-.jobs__item {
+.works__item {
   flex-basis: calc((100% - 60px) / 3);
 }
-.jobs__item:not(:last-child){
+.works__item:not(:last-child){
   margin-right: 30px;
 }
-.jobs__img {
+.works__img {
 }
 .background {
   background-color: var(--sectionBg);
